@@ -1,0 +1,11 @@
+<hr class="post-list__divider " />
+
+<nav class="pagination" role="navigation">
+    {{#if prev}}
+        <a class="newer-posts pagination__newer btn btn-small btn-tertiary" href="{{page_url prev}}#blog">&larr; 最近</a>
+    {{/if}}
+    <span class="pagination__page-number">{{page}} / {{pages}}</span>
+    {{#if next}}
+        <a class="older-posts pagination__older btn btn-small btn-tertiary" href="{{page_url next}}#blog">更早 &rarr;</a>
+    {{/if}}
+</nav>
