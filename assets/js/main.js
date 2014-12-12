@@ -36,6 +36,11 @@ $(document).ready(function() {
   });
 
   $('.navigation-wrapper .blog-button').click(function() {
+    // If already in blog, return early without animate overlay panel again.
+    if (location.hash && location.hash == "#blog") {
+      return;
+    }
+
     if ($('.navigation-wrapper').css('display') == "block") {
       $('.navigation-wrapper').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function() {
         $('.navigation-wrapper').toggleClass('visible animated bounceOutUp');
@@ -43,6 +48,7 @@ $(document).ready(function() {
 
       $('.navigation-wrapper').toggleClass('animated bounceInDown animated bounceOutUp');
     }
+    
     $('.btn-mobile-menu__icon').toggleClass('fa fa-list fa fa-angle-up animated fadeIn');
   });
 });
