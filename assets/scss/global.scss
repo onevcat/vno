@@ -99,15 +99,12 @@ em {
 }
 
 blockquote {
-  margin: 1em 0;
-  padding: 2em 0;
-  background: $gray-lightest;
-  border: 1px solid $gray-lighter;
-  border-radius: $border-radius;
+  padding: 10px 20px;
+  margin: 0 0 20px;
   font-family: $serif-font;
   font-weight: lighter;
-  font-size: 1.3em;
-  text-align: center;
+  font-size: 1em;
+  border-left: 3px solid primary-color;
 
   p {
 
