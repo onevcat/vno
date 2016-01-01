@@ -22,11 +22,9 @@ Vno is following the responsive design and works well in mobile devices. You may
 
 Integrate comment system with a simple user name input with [Disqus](https://disqus.com). Use [Font Awesome](http://fontawesome.io) icon to express yourself better. They are perfect for a personal site (such as blog), as well as some commercial CMS.
 
-### SASS and No-JS fallback
+### SASS
 
 Vno is built on SASS, but it is not a must flow. If you know HTML and CSS, making modifications to the theme should be super simple.
-
-While JS is widely used, there are always strange systems and browsers not supporting JS. Don't worry, there is fallback if there is no JS. So you can just see a proper layout even if the JS does not work.
 
 ### Code highlight
 
@@ -169,11 +167,9 @@ Vno 遵循响应式设计，所以应该能在各种设备上都表现良好。�
 
 如果您打算使用 [Disqus](https://disqus.com) 的话，集成评论系统就只是填一个用户名那么简单。您也可以使用 [Font Awesome](http://fontawesome.io) 的图标字体来获得更好的表现。这些不仅对于个人站点 (比如博客) 来说是很好的选择，对于一些商用的 CMS (内容管理系统) 来说也是不错的解决方案。
 
-### SASS 和 No-JS 回滚
+### SASS
 
 Vno 是基于 SASS 创建的，但是如果您不再希望继续维护可扩展性，您也可以忽略这个再开发的流程。不过如果您懂一些 HTML 和 CSS 的话，对现有主题做出修改是轻而易举的。
-
-虽然 JS 已经被广泛使用了，但是还是总会有一些奇怪的系统或是浏览器不支持 JS。得益于 Vno 对于没有 JS 时进行了回滚处理，所以您也不必担心。
 
 ### 代码高亮
 

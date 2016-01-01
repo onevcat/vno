@@ -375,10 +375,6 @@ hr {
   width: 100%;
   height: 100%; }
 
-.no-js .panel-main {
-  width: 30%;
-  max-width: 700px; }
-
 .panel-main__inner {
   display: table-cell;
   vertical-align: middle;

@@ -88,33 +88,24 @@
     height: 100%;
   }
 
-    .no-js {
+  .panel-main__inner {
+    display: table-cell;
+    vertical-align: middle;
+    position: relative;
+    z-index: 800;
+    padding: 0 30px;
+  }
 
-      .panel-main {
-        width: 30%;
-        max-width: 700px;
-      }
+  .panel-main__content {
+    max-width: 620px;
+    margin: 0 auto;
+  }
 
-    }
-
-    .panel-main__inner {
-      display: table-cell;
-      vertical-align: middle;
-      position: relative;
-      z-index: 800;
-      padding: 0 30px;
-    }
-
-    .panel-main__content {
-      max-width: 620px;
-      margin: 0 auto;
-    }
-
-    .panel-main__content--fixed {
-      width: 480px;
-      transition: width 1s;
-      -webkit-transition: width 1s; /* Safari */
-    }
+  .panel-main__content--fixed {
+    width: 480px;
+    transition: width 1s;
+    -webkit-transition: width 1s; /* Safari */
+  }
 
   .panel-inverted {
     font-weight: 100;
