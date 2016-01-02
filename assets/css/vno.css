@@ -698,6 +698,25 @@ input[type="tel"] {
   input[type="tel"]:-ms-input-placeholder {
     color: #CCCCCC; }
 
+.read-more {
+  margin-bottom: 1em; }
+
+.read-more-item {
+  display: inline;
+  width: 48%;
+  margin-top: 20pt;
+  margin-bottom: 20pt; }
+
+.read-more-item-dim {
+  color: #7b0f19;
+  font-size: .8em; }
+
+.read-more-item.read-more-item-left {
+  float: left; }
+
+.read-more-item.read-more-item-right {
+  float: right; }
+
 @media all and (max-width: 1100px) {
   .panel-cover__logo {
     width: 70px; }

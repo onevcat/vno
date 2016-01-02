@@ -1,0 +1,27 @@
+// ------------------------------
+// READ MORE
+// ------------------------------
+
+.read-more {
+  margin-bottom: 1em;
+}
+
+.read-more-item {
+  display: inline;
+  width: 48%;
+  margin-top: 20pt;
+  margin-bottom: 20pt;
+}
+
+.read-more-item-dim {
+  color: $hover-color;
+  font-size: .8em;
+}
+
+.read-more-item.read-more-item-left {
+  float: left;
+}
+  
+.read-more-item.read-more-item-right {
+  float: right;
+}
